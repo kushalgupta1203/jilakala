@@ -1,0 +1,62 @@
+path:hover {
+  fill: orange;
+  cursor: pointer;
+}
+
+
+
+#kupwara{
+    fill: orange;
+}
+
+.items-desc {
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.2px;
+}
+
+.items-title{
+    height: fit-content;
+    width: fit-content;
+}
+
+.items-title > p {
+  border-radius: 6px;
+  padding: 10px;
+  background-color: rgba(252, 170, 97, 0.3);
+  color: #000;
+  font-family: Libre Baskerville;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -2.56px;
+}
+
+.map-wrapper-header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.map-wrapper-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 688px;
+  height: 671.471px;
+  object-fit: fill;
+  flex-shrink: 0;
+}

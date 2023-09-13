@@ -1,0 +1,125 @@
+.items-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 700px;
+  padding: 10px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: rgba(252, 170, 97, 0.3);
+}
+
+.dData-title {
+  color: #000;
+  text-decoration: underline 0.3px;
+  font-family: Libre Baskerville;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -2px;
+}
+
+.dData-desc {
+  color: #000;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.2px;
+  display: flex;
+  margin-left: 30px;
+}
+
+.dData-add {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dData-image {
+  width: 203px;
+  height: 210px;
+  flex-shrink: 0;
+}
+
+.dData-product {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.dData-product-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -2px;
+}
+
+.dData-product-price {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+   font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+
+.dData-product-more a {
+  text-decoration: none;
+  color: #000;
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.12px;
+}
+
+.dData-lower {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dData-lower-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.dData-lower-link {
+  color: #000;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: -1.12px;
+}
+
+.heart {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.cart-btn {
+  width: 140px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: #822f3d;
+}
