@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../assets/styles/Navbar.css";
 import Logo from "../../assets/images/logo.jpg";
 import { Link } from "react-router-dom";
+import Dropdown from "../dropdown/Dropdown";
 
 
 function Navbar() {
+  const [openProfile, setOpenProfile] = useState(false)
   return (
     <>
       <div className="navigation-wrapper">
@@ -22,9 +24,11 @@ function Navbar() {
       <div className="navigation-lower-wrapper">
         <nav>
           <ul className="nav-menu">
-            <li>Home</li>
-            <li>About</li>
-            <li>Categories</li>
+            <Link to="/"><li>Home</li></Link>
+            <li >About</li>
+            <li  ><span className="category-button" onClick={()=>setOpenProfile((prev)=>
+              !prev
+            )}>Categories</span> {openProfile && <Dropdown/>}</li>
             <li>Offers</li>
           </ul>
         </nav>

@@ -1,0 +1,38 @@
+.dropdown-wrapper{
+    display: flex;
+    flex-direction: column;
+    display: relative;
+    
+}
+
+.dropdown-list{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+}
+
+
+
+.dropdown-style{
+    top: 9rem;
+    position: absolute;
+    z-index: 99;
+    background-color: #fcaa61;
+    width: 120px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.dropdown-style::before{
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    left: 1rem;
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color: #fcaa61;
+    
+}

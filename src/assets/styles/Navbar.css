@@ -49,7 +49,7 @@
 
 .logo-text {
   position: absolute;
-  top: 62px;
+  top: 74px;
   left: 65px;
   color: #e3676e;
   font-family: Open Sans;
@@ -60,7 +60,7 @@
   letter-spacing: -0.96px;
 }
 
-.nav{
+.nav {
   width: 100%;
 }
 
@@ -78,7 +78,8 @@
   justify-content: space-evenly;
 }
 
-.nav-menu {
+.nav-menu , .nav-menu > a {
+  text-decoration: none;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -96,4 +97,13 @@
 
 .nav-menu > button :focus {
   outline: none;
+}
+
+.category-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

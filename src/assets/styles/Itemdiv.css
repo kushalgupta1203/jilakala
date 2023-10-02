@@ -5,6 +5,7 @@
   width: 700px;
   padding: 10px;
   height: auto;
+  gap: 10px;
   flex-shrink: 0;
   border-radius: 11px;
   background: rgba(252, 170, 97, 0.3);
@@ -12,16 +13,19 @@
 
 .dData-title {
   color: #000;
+  gap: 10px;
   text-decoration: underline 0.3px;
   font-family: Libre Baskerville;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
+  margin-bottom: 4px;
   line-height: normal;
   letter-spacing: -2px;
 }
 
 .dData-desc {
+  margin-bottom: 6px;
   color: #000;
   font-family: Inter;
   font-size: 23px;
@@ -34,6 +38,7 @@
 }
 
 .dData-add {
+  gap: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,9 +54,11 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  gap: 4px;
 }
 
-.dData-product-title {
+.dData-product-title  a{
+  text-decoration: none;
   color: #000;
   font-family: Inter;
   font-size: 34px;

@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineHeart } from "react-icons/ai";
 import "../../assets/styles/Itemdiv.css";
 import almond from "../../assets/images/almond.png";
+import { Link } from "react-router-dom";
 
 function Itemdiv(props) {
   return (
@@ -22,11 +23,12 @@ function Itemdiv(props) {
             </div>
             <div className="dData-add">
               <div className="dData-image">
-                <img src={almond} alt="almond"></img>
+                <Link to='/product'><img src={almond} alt="almond"></img></Link>
               </div>
               <div className="dData-product">
                 <div className="dData-product-title">
-                  Kashmiri Mamra Almonds
+                  <Link to="/product">Kashmiri Mamra Almonds </Link>
+                  
                 </div>
                 <div className="dData-product-price">
                   <p>Rs. 499/kg including tax</p>
